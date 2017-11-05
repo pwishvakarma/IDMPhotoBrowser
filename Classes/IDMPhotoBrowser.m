@@ -1048,7 +1048,7 @@ NSLocalizedStringFromTableInBundle((key), nil, [NSBundle bundleWithPath:[[NSBund
     photo.progressUpdateBlock = ^(CGFloat progress){
         dispatch_async(dispatch_get_main_queue(), ^{
             [weakPage setProgress:progress forPhoto:photo];
-        })
+        });
     };
 }
 
