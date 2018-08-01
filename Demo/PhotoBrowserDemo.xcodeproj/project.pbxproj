@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3F52B4DD2111A5D4000C6B4F /* IDMUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F52B4DC2111A5D4000C6B4F /* IDMUtils.m */; };
 		4C6F979214AF734900F8389A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C6F979114AF734900F8389A /* UIKit.framework */; };
 		4C6F979414AF734900F8389A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C6F979314AF734900F8389A /* Foundation.framework */; };
 		4C6F979614AF734900F8389A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C6F979514AF734900F8389A /* CoreGraphics.framework */; };
@@ -55,6 +56,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3F52B4DB2111A5D4000C6B4F /* IDMUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IDMUtils.h; sourceTree = "<group>"; };
+		3F52B4DC2111A5D4000C6B4F /* IDMUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IDMUtils.m; sourceTree = "<group>"; };
 		4C6F978D14AF734900F8389A /* PhotoBrowserDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PhotoBrowserDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4C6F979114AF734900F8389A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		4C6F979314AF734900F8389A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -234,6 +237,8 @@
 		D1574931178DB94900B0211A /* IDMPhotoBrowser */ = {
 			isa = PBXGroup;
 			children = (
+				3F52B4DB2111A5D4000C6B4F /* IDMUtils.h */,
+				3F52B4DC2111A5D4000C6B4F /* IDMUtils.m */,
 				D157494E178DB94900B0211A /* IDMCaptionView.h */,
 				D157494F178DB94900B0211A /* IDMCaptionView.m */,
 				D11464B61802FFC4005B7BC3 /* IDMPBConstants.h */,
@@ -416,6 +421,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3F52B4DD2111A5D4000C6B4F /* IDMUtils.m in Sources */,
 				D1574968178DB94900B0211A /* IDMCaptionView.m in Sources */,
 				D1A9ED541DEB685F00C238DA /* MenuViewController.swift in Sources */,
 				D1574969178DB94900B0211A /* IDMPhoto.m in Sources */,
